@@ -1,0 +1,12 @@
+{
+  "name": "homework",
+  "type": "module"
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "cgexpress": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
