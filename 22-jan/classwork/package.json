@@ -1,0 +1,11 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "main": "obj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

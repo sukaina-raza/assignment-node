@@ -7,6 +7,12 @@ app.use((req,res,next)=>{
     next();
 })
 
+
+
+
+
+
+
 app.use("/users", (req,res,next)=>{
 const {pwd, role}=req.query;
 
