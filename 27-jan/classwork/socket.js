@@ -33,15 +33,14 @@ app.get('/', (req, res) => {
   res.sendFile(join(__dirname, 'index.html'));
 });
 
-io.on('connection', (socket) => {
-  socket.on('chat message', (msg) => {
-    io.emit('chat message', msg);
-  });
-});
+// io.on('connection', (socket) => {
+//   socket.on('chat message', (msg) => {
+//     io.emit('chat message', msg);
+//   });
+// });
 
-// app.use(express.static(__dirname + "/index.html"))
 
-server.listen(3000, () => {
+server.listen(3004, () => {
   console.log('server running at http://localhost:3000');
 
 
