@@ -45,41 +45,56 @@
 
 ////======================chaining================================
 
-function step1(){
-    return new Promise((resolve)=>{
-        setTimeout(()=>{
-            resolve("step 1 complete");
-        },1000);
-    });
-}
+// function step1(){
+//     return new Promise((resolve)=>{
+//         setTimeout(()=>{
+//             resolve("step 1 complete");
+//         },1000);
+//     });
+// }
 
-function step2(){
-    return new Promise((resolve)=>{
-        setTimeout(()=>{
-            resolve("step 2 complete");
-        },1000)
-    });
-}
-function step3(){
-    return new Promise((resolve)=>{
-        setTimeout(()=>{
-            resolve("step 3 complete");
-        },1000);
-    });
-}
+// function step2(){
+//     return new Promise((resolve)=>{
+//         setTimeout(()=>{
+//             resolve("step 2 complete");
+//         },1000)
+//     });
+// }
+// function step3(){
+//     return new Promise((resolve)=>{
+//         setTimeout(()=>{
+//             resolve("step 3 complete");
+//         },1000);
+//     });
+// }
 
-//chaining steps
-step1()
-.then((result1)=>{
-    console.log(result1);
-    return step2();
-})
-.then((result2)=>{
-    console.log(result2);
-    return step3();
-})
-.then((result3)=>{
-    console.log(result3);
-    console.log("all steps completed");
+// //chaining steps
+// step1()
+// .then((result1)=>{
+//     console.log(result1);
+//     return step2();
+// })
+// .then((result2)=>{
+//     console.log(result2);
+//     return step3();
+// })
+// .then((result3)=>{
+//     console.log(result3);
+//     console.log("all steps completed");
     
-});
+// });
+
+// standard IIFE
+(function () {
+    // statements…
+  })();
+  
+  // arrow function variant
+  (() => {
+    // statements…
+  })();
+  
+  // async IIFE
+  (async () => {
+    // statements…
+  })();

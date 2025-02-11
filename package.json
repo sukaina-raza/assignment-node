@@ -1,7 +1,8 @@
 {
   "name": "assignment-node",
   "version": "1.0.0",
-  "type": "module",
+  "type":"module",
+
   "description": "All day wise cw and hw codes are here",
   "main": "index.js",
   "scripts": {
@@ -15,6 +16,7 @@
     "cookie-parser": "^1.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "express-session": "^1.18.1"
+    "express-session": "^1.18.1",
+    "mongodb": "^6.13.0"
   }
 }
